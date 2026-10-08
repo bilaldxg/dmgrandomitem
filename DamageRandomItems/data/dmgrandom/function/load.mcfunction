@@ -15,4 +15,4 @@ execute unless score #state dmgr matches 0.. run scoreboard players set #state d
 execute in minecraft:overworld run forceload add 0 0
 execute in minecraft:overworld run setworldspawn 0 65 0
 
-tellraw @a [{"text":"[Damage = Random Item] ","color":"gold"},{"text":"Loaded. Start with ","color":"gray"},{"text":"/function dmgrandom:start","color":"yellow","click_event":{"action":"suggest_command","command":"/function dmgrandom:start"}}]
+tellraw @a [{"text":"[Damage = Random Item] ","color":"gold"},{"text":"Loaded. Start with ","color":"gray"},{"text":"/function dmgrandom:start","color":"yellow"}]

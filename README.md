@@ -11,8 +11,9 @@ Made for **Minecraft Java Edition 26.2** (data pack format 107.1).
 
 The void world can only be generated when the world is created, so:
 
-1. Download this repo and copy the `DamageRandomItems` folder (or a zip of it)
-   somewhere you can find it.
+1. Get the pack: use the `DamageRandomItems` **folder** from this repo, or zip its
+   *contents* so that `pack.mcmeta` sits at the top of the zip. (GitHub's
+   "Download ZIP" of the whole repo will **not** work as a data pack.)
 2. In Minecraft: **Singleplayer → Create New World**.
 3. Set **Game Mode** to Survival, **Allow Commands: ON**, and pick a difficulty other than Peaceful.
 4. Go to **More → Data Packs**, click **Open Pack Folder**, drop `DamageRandomItems`
@@ -21,6 +22,12 @@ The void world can only be generated when the world is created, so:
 
 For a server: put `DamageRandomItems` into `world/datapacks/` **before** the world is
 generated for the first time (delete the old `world` folder if needed).
+
+## Troubleshooting
+
+- Run `/datapack list`. The pack should show up as enabled. If it is missing,
+  `pack.mcmeta` is not at the top level of the folder/zip.
+- If the world isn't empty, the pack wasn't selected when the world was created.
 
 ## Commands
 
