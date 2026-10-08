@@ -1,11 +1,11 @@
 # Damage = Random Item (Minecraft data pack)
 
 Every **half a heart** of damage you take gives you a **random item** (any of the
-1,657 items in the game) in a **random amount, up to a full stack**.
+1,536 items in the game) in a **random amount, up to a full stack**.
 You spawn on **a single bedrock block** in a completely empty void world, and
 after **1 hour** a **Wither** spawns. Kill it to win.
 
-Made for **Minecraft Java Edition 26.3** (data pack format 121).
+Made for **Minecraft Java Edition 26.2** (data pack format 107.1).
 
 ## Installation (new world, required for the void)
 
@@ -51,7 +51,7 @@ generated for the first time (delete the old `world` folder if needed).
 The item list is generated from the vanilla game data. To include new items:
 
 ```
-python3 tools/generate_loot_table.py 26.4
+python3 tools/generate_loot_table.py 26.3
 ```
 
 and update `pack_format` / `min_format` / `max_format` in `DamageRandomItems/pack.mcmeta`.
