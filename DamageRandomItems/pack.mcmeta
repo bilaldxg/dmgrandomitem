@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "§6Damage = Random Item§r\n§7Void world · Wither after 1 hour",
+    "pack_format": 121,
+    "min_format": [121, 0],
+    "max_format": 121
+  }
+}
